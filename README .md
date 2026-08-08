@@ -1,6 +1,6 @@
 # Package Health Monitor
 
-A small device that rides inside a shipped parcel and tells you exactly how it was handled in transit. Built on an STM32 Nucleo-C5A3ZG with an MPU6050 IMU, it turns raw motion and temperature data into a clean, live health score — no cloud, no app, just a UART cable and real numbers.
+A small device that rides inside a shipped parcel and tells you exactly how it was handled in transit, very important for certain parcels for example Home lab tests where vibrations in the blood sample leads to hemolysis and interferes with the lab reports. Built on an STM32 Nucleo-C5A3ZG with an MPU6050 IMU, it turns raw motion and temperature data into a clean, live health score — no cloud, no app, just a UART cable and real numbers.
 
 ## What it does
 
