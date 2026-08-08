@@ -54,3 +54,6 @@ Standard STM32CubeIDE project for the NUCLEO-C5A3ZG. Open, build, and flash over
 ## Why it's built this way
 
 Each module has exactly one job: the IMU driver only talks I2C, the health monitor only turns raw samples into events, the scoring engine only turns events into points, and the logger only formats what it's handed. That separation is what keeps the shock/vibration logic reliable — every layer stays simple enough to reason about on its own, which is what makes the whole pipeline hold together end to end.
+
+##VIDEO LINK
+https://uploadnow.io/f/YRPqJwG
